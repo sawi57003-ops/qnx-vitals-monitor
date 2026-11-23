@@ -1,0 +1,165 @@
+c[?7l[2J[0mSeaBIOS (version 1.16.3-debian-1.16.3-2)
+
+
+iPXE (https://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFCADB0+3EF0ADB0 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM..
+non UEFI or UEFI+CSM boot
+ACPI table not found (0x4746434d)
+System behaves poorly without PCID support.
+overriding mask for controller 2, vector_base 0
+---> Starting slogger2
+---> Starting PCI Services
+---> Starting fsevmgr
+---> Starting devb
+# ---> Mounting file systems
+Path=0 - Intel 82371SB
+ target=0 lun=0     Direct-Access(0) -          QEMU HARDDISK    Rev: 2.5+
+Path=1 - Intel 82371SB
+ target=0 lun=0            CD-ROM(5) - QEMU     QEMU DVD-ROM     Rev: 2.5+
+---> Mounting file systems
+---> Starting Networking
+if_up: tries exhausted
+ifconfig: interface vtnet0 does not exist
+no valid interfaces found
+---> Starting sshd
+Memory fault (core dumped) 
+---> Starting misc
+=== QNX Real-Time Patient Monitor ===
+QNX 8.0 | 2 CPUs | cycles/sec 1493573452
+threads (SCHED_FIFO): alarm 100ms prio22, ecg 10ms prio20,
+  spo2 20ms prio18, nibp 15s prio12, display 1s prio10,
+  load hog prio5. demo 90 s: load ON at 20s, tachycardia
+  event at 45s, load OFF at 60s.
+[t=  0.0s] HR  72.0 bpm | SpO2 98.0% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t=  1.0s] HR  72.0 bpm | SpO2 98.1% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t=  2.0s] HR  72.3 bpm | SpO2 98.1% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t=  3.0s] HR  72.3 bpm | SpO2 98.2% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t=  4.0s] HR  73.2 bpm | SpO2 98.2% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+           jitter: ecg max 916 us miss 0 | spo2 max 551 us miss 0 | alarm max 1556 us miss 0
+[t=  5.0s] HR  73.2 bpm | SpO2 98.3% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t=  6.0s] HR  73.2 bpm | SpO2 98.3% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t=  7.0s] HR  73.2 bpm | SpO2 98.3% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t=  8.0s] HR  73.2 bpm | SpO2 98.4% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t=  9.0s] HR  73.2 bpm | SpO2 98.4% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+           jitter: ecg max 2753 us miss 0 | spo2 max 1840 us miss 0 | alarm max 1556 us miss 0
+[t= 10.0s] HR  74.1 bpm | SpO2 98.4% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t= 11.0s] HR  74.1 bpm | SpO2 98.4% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t= 12.0s] HR  74.1 bpm | SpO2 98.4% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t= 13.0s] HR  74.1 bpm | SpO2 98.4% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+[t= 14.0s] HR  75.0 bpm | SpO2 98.4% | NIBP 120/ 80 | Temp 36.6C | ok | LOAD off
+           jitter: ecg max 2753 us miss 0 | spo2 max 1840 us miss 0 | alarm max 2378 us miss 0
+[t= 15.0s] HR  74.1 bpm | SpO2 98.3% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD off
+[t= 16.0s] HR  75.0 bpm | SpO2 98.3% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD off
+[t= 17.0s] HR  75.0 bpm | SpO2 98.3% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD off
+[t= 18.0s] HR  75.0 bpm | SpO2 98.2% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD off
+[t= 19.0s] HR  75.0 bpm | SpO2 98.2% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD off
+           jitter: ecg max 5964 us miss 0 | spo2 max 4705 us miss 0 | alarm max 4460 us miss 0
+[t= 20.0s] HR  75.0 bpm | SpO2 98.1% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD off
+--- [t=20s] CPU load ON (prio-5 hog) ---
+[t= 21.0s] HR  76.0 bpm | SpO2 98.1% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD ON 
+[t= 22.0s] HR  75.9 bpm | SpO2 98.0% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD ON 
+[t= 23.0s] HR  75.0 bpm | SpO2 97.9% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD ON 
+[t= 24.0s] HR  75.9 bpm | SpO2 97.9% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD ON 
+           jitter: ecg max 23069 us miss 2 | spo2 max 22270 us miss 1 | alarm max 4460 us miss 0
+[t= 25.0s] HR  75.9 bpm | SpO2 97.8% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD ON 
+[t= 26.0s] HR  75.0 bpm | SpO2 97.8% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD ON 
+[t= 27.0s] HR  76.0 bpm | SpO2 97.7% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD ON 
+[t= 28.0s] HR  76.0 bpm | SpO2 97.7% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD ON 
+[t= 29.0s] HR  75.9 bpm | SpO2 97.7% | NIBP 121/ 80 | Temp 36.6C | ok | LOAD ON 
+           jitter: ecg max 23069 us miss 2 | spo2 max 22270 us miss 1 | alarm max 4460 us miss 0
+[t= 30.0s] HR  76.0 bpm | SpO2 97.6% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 31.0s] HR  75.9 bpm | SpO2 97.6% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 32.0s] HR  76.0 bpm | SpO2 97.6% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 33.0s] HR  76.0 bpm | SpO2 97.6% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 34.0s] HR  75.9 bpm | SpO2 97.6% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+           jitter: ecg max 23526 us miss 7 | spo2 max 27439 us miss 2 | alarm max 4460 us miss 0
+[t= 35.0s] HR  75.9 bpm | SpO2 97.6% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 36.0s] HR  75.9 bpm | SpO2 97.6% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 37.0s] HR  75.0 bpm | SpO2 97.7% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 38.0s] HR  75.9 bpm | SpO2 97.7% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 39.0s] HR  76.0 bpm | SpO2 97.7% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+           jitter: ecg max 33003 us miss 14 | spo2 max 27439 us miss 4 | alarm max 4460 us miss 0
+[t= 40.0s] HR  75.9 bpm | SpO2 97.8% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 41.0s] HR  75.0 bpm | SpO2 97.8% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 42.0s] HR  75.9 bpm | SpO2 97.9% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 43.0s] HR  75.0 bpm | SpO2 97.9% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+[t= 44.0s] HR  75.9 bpm | SpO2 98.0% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+           jitter: ecg max 33003 us miss 19 | spo2 max 27439 us miss 5 | alarm max 4460 us miss 0
+[t= 45.0s] HR  75.0 bpm | SpO2 98.1% | NIBP 122/ 80 | Temp 36.7C | ok | LOAD ON 
+--- [t=45s] tachycardia event: HR -> ~132 bpm ---
+[t= 45.9s] !!! ALARM: TACHYCARDIA HR 127
+[t= 46.0s] HR 127.3 bpm | SpO2 95.3% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 127 | LOAD ON 
+[t= 47.0s] HR 130.5 bpm | SpO2 95.0% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 130 | LOAD ON 
+[t= 48.0s] HR 133.3 bpm | SpO2 94.8% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 133 | LOAD ON 
+[t= 49.0s] HR 133.3 bpm | SpO2 94.7% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 133 | LOAD ON 
+           jitter: ecg max 33003 us miss 22 | spo2 max 36275 us miss 6 | alarm max 4460 us miss 0
+[t= 50.0s] HR 136.4 bpm | SpO2 94.9% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 136 | LOAD ON 
+[t= 51.0s] HR 133.3 bpm | SpO2 95.2% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 133 | LOAD ON 
+[t= 52.0s] HR 130.5 bpm | SpO2 95.3% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 130 | LOAD ON 
+[t= 53.0s] HR 130.4 bpm | SpO2 95.1% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 130 | LOAD ON 
+[t= 54.0s] HR 130.4 bpm | SpO2 94.8% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 130 | LOAD ON 
+           jitter: ecg max 33003 us miss 22 | spo2 max 36275 us miss 6 | alarm max 4460 us miss 0
+[t= 55.0s] HR 130.4 bpm | SpO2 94.7% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 130 | LOAD ON 
+[t= 56.0s] HR 133.3 bpm | SpO2 94.8% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 133 | LOAD ON 
+[t= 57.0s] HR 136.4 bpm | SpO2 95.1% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 136 | LOAD ON 
+[t= 58.0s] HR 136.4 bpm | SpO2 95.3% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 136 | LOAD ON 
+[t= 59.0s] HR 133.3 bpm | SpO2 95.2% | NIBP 122/ 80 | Temp 36.7C | ALARM: TACHYCARDIA HR 133 | LOAD ON 
+           jitter: ecg max 33003 us miss 22 | spo2 max 36275 us miss 6 | alarm max 4460 us miss 0
+[t= 60.0s] HR 130.4 bpm | SpO2 94.9% | NIBP 145/ 95 | Temp 36.7C | ALARM: TACHYCARDIA HR 130 | LOAD ON 
+--- [t=60s] load OFF, vitals recovering ---
+[t= 60.7s] alarm cleared
+[t= 61.0s] HR  80.0 bpm | SpO2 98.3% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 62.0s] HR  72.3 bpm | SpO2 98.2% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 63.0s] HR  72.3 bpm | SpO2 98.2% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 64.0s] HR  72.3 bpm | SpO2 98.1% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+           jitter: ecg max 33003 us miss 22 | spo2 max 36275 us miss 6 | alarm max 4460 us miss 0
+[t= 65.0s] HR  71.4 bpm | SpO2 98.1% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 66.0s] HR  72.3 bpm | SpO2 98.0% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 67.0s] HR  70.6 bpm | SpO2 97.9% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 68.0s] HR  71.4 bpm | SpO2 97.9% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 69.0s] HR  71.4 bpm | SpO2 97.8% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+           jitter: ecg max 33003 us miss 22 | spo2 max 36275 us miss 6 | alarm max 4460 us miss 0
+[t= 70.0s] HR  70.6 bpm | SpO2 97.8% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 71.0s] HR  70.6 bpm | SpO2 97.7% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 72.0s] HR  70.6 bpm | SpO2 97.7% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 73.0s] HR  69.8 bpm | SpO2 97.7% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+[t= 74.0s] HR  70.6 bpm | SpO2 97.6% | NIBP 145/ 95 | Temp 36.7C | ok | LOAD off
+           jitter: ecg max 33003 us miss 22 | spo2 max 36275 us miss 6 | alarm max 4460 us miss 0
+[t= 75.0s] HR  69.8 bpm | SpO2 97.6% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 76.0s] HR  69.8 bpm | SpO2 97.6% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 77.0s] HR  69.0 bpm | SpO2 97.6% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 78.0s] HR  69.8 bpm | SpO2 97.6% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 79.0s] HR  69.0 bpm | SpO2 97.6% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+           jitter: ecg max 33003 us miss 22 | spo2 max 36275 us miss 6 | alarm max 4460 us miss 0
+[t= 80.0s] HR  69.0 bpm | SpO2 97.6% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 81.0s] HR  69.0 bpm | SpO2 97.7% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 82.0s] HR  69.0 bpm | SpO2 97.7% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 83.0s] HR  69.0 bpm | SpO2 97.7% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 84.0s] HR  68.2 bpm | SpO2 97.8% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+           jitter: ecg max 33003 us miss 22 | spo2 max 36275 us miss 6 | alarm max 4460 us miss 0
+[t= 85.0s] HR  69.0 bpm | SpO2 97.8% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 86.0s] HR  68.2 bpm | SpO2 97.9% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 87.0s] HR  68.2 bpm | SpO2 97.9% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 88.0s] HR  68.2 bpm | SpO2 98.0% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+[t= 89.0s] HR  68.2 bpm | SpO2 98.1% | NIBP 121/ 80 | Temp 36.7C | ok | LOAD off
+           jitter: ecg max 33003 us miss 22 | spo2 max 36275 us miss 6 | alarm max 4460 us miss 0
+[t= 90.0s] HR  68.2 bpm | SpO2 98.1% | NIBP 120/ 80 | Temp 36.7C | ok | LOAD off
+[t= 91.0s] HR  68.2 bpm | SpO2 98.1% | NIBP 120/ 80 | Temp 36.7C | ok | LOAD off
+
+=== SUMMARY (90 s demo) ===
+thread   period   activations   avg jitter   max jitter   misses
+alarm       100 ms         902       1127 us       4460 us        0
+ecg          10 ms        9006        452 us      33003 us       22
+spo2         20 ms        4504        288 us      36275 us        6
+nibp      15000 ms           8        852 us       1183 us        0
+display    1000 ms          92       1102 us      25143 us        0
+verdict: alarm thread (safety-critical, 100 ms) missed 0 deadline(s) while the CPU was saturated.
+
+To exit QEMU, type <ctrl>a x
+
+[?7hProcess count:21
+Startup complete
+QNX noname 8.0.0 2026/10/30-09:10:05EDT x86pc x86_64
