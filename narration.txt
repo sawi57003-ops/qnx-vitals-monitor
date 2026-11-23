@@ -1,0 +1,28 @@
+# Narration — QNX Real-Time Patient Monitor (target ~75 s)
+#
+# Read at a calm, steady pace. The video shows the live serial console
+# of QNX 8.0 running in QEMU: the monitor's dashboard, the CPU-load
+# phase, the tachycardia alarm, and the final deadline summary.
+
+This is a real-time patient monitor running on QNX 8.0, inside QEMU.
+
+Six threads, all fixed-priority. The alarm thread runs every 100
+milliseconds at the highest priority. ECG sampling at 100 hertz,
+oxygen saturation at 50 hertz, blood pressure every 15 seconds.
+
+Watch what happens at 20 seconds: a low-priority task saturates the
+CPU. The dashboard keeps updating once a second, and the jitter numbers
+stay in the low milliseconds.
+
+At 45 seconds, the patient goes into tachycardia — heart rate jumps to
+132. The alarm fires in under a second, while the CPU is still loaded.
+
+At 60 seconds the load stops and vitals recover.
+
+Here is the proof, measured on the target, not asserted: the
+safety-critical alarm thread missed zero deadlines in 900 activations,
+while the CPU was saturated. That is what a hard real-time operating
+system is for — in a patient monitor, the alarm path must fire on time,
+no matter what else the system is doing.
+
+Source code and the full serial log are on GitHub, linked below.
